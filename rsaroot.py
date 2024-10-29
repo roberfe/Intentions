@@ -24,5 +24,6 @@ while LOOP:
             found = True  # Marca que encontró un carácter válido
             break
     if not found:
-        print("\nNo se encontró un carácter válido, terminando el bucle.")
+        # Imprimo el final de la rsa
+        print("-----END OPENSSH PRIVATE KEY-----")
         break
